@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+}
+.logo{
+    width: 220px;
+    cursor: pointer;
+}
+.navcenter{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+.icon1{
+    width: 25px;
+    cursor: pointer;
+}
+.innavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+.navbar2{
+background-color: rgb(241, 239, 239);
+padding-top: 5px ;
+padding-bottom: 5px ;
+}
+
+/* slide 1 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    overflow: hidden; /* Ensures no overflow beyond the slider */
+}
+
+.img-slider .slider-container {
+    position: absolute;
+    width: 700%; /* 7 slides = 7 x 100% */
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: slider 14s infinite; /* Adjust duration based on the number of slides */
+}
+
+.img-slider .slider-container .slide {
+    position: relative;
+    width: 14.2857%; /* 100% / 7 slides */
+    height: 100%;
+    float: left;
+}
+
+.img-slider .slider-container .slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slider {
+    0%, 10% { left: 0; }           /* Show 1st slide */
+    14%, 24% { left: -100%; }      /* Show 2nd slide */
+    28%, 38% { left: -200%; }      /* Show 3rd slide */
+    42%, 52% { left: -300%; }      /* Show 4th slide */
+    56%, 66% { left: -400%; }      /* Show 5th slide */
+    70%, 80% { left: -500%; }      /* Show 6th slide */
+    84%, 94% { left: -600%; }      /* Show 7th slide */
+    100% { left: 0; }             /* Loop back to 1st slide */
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    width: 2000px;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.FASTRACKCATEGORIES{
+    font-size: 50px;
+    transform: rotate(270deg);
+    margin-top: 150px;
+    width: fit-content;
+    height: fit-content;
+}
+.TRENDING{
+    /* border: 2px solid red; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 78%;
+    /* justify-content: center; */
+}
+.SHOPYOURVIBE{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.BESTSELLERS{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.scroll1{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 81%;
+    /* justify-content: center; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-slider1 {
+    position: relative;
+    width: 75vw;
+    height: 500px;
+    overflow: hidden; /* Ensures no overflow beyond the slider */
+}
+
+.img-slider1 .slider-container1 {
+    position: absolute;
+    width: 700%; /* 7 slides = 7 x 100% */
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: slider 7s infinite; /* Adjust duration based on the number of slides */
+}
+
+.img-slider1 .slider-container1 .slide1 {
+    position: relative;
+    width: 14.2857%; /* 100% / 7 slides */
+    height: 100%;
+    float: left;
+}
+
+.img-slider1 .slider-container1 .slide1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slider1 {
+    0%, 16% { left: 0; }           /* Show 1st slide */
+    20%, 33% { left: -100%; }      /* Show 2nd slide */
+    36%, 49% { left: -200%; }      /* Show 3rd slide */
+    52%, 65% { left: -300%; }      /* Show 4th slide */
+    68%, 81% { left: -400%; }      /* Show 5th slide */
+    84%, 97% { left: -500%; }      /* Show 6th slide */
+    100% { left: 0; }             /* Loop back to 1st slide */
+}
+.BEBOTH{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.FOLLOWUS{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
